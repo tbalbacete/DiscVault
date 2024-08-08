@@ -1,0 +1,10 @@
+import * as React from "react";
+import { StyledDiv } from "./{{component_name}}.styles";
+
+export interface {{component_name}}Props {
+  children?: React.ReactNode;
+}
+
+export const {{component_name}}: React.FC<{{component_name}}Props> = ({ children }) => {
+  return <StyledDiv>{{sentenceCase component_name}} Component {children}</StyledDiv>;
+};

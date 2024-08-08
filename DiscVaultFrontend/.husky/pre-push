@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+[ -n "$CI" ] && exit 0
+
+cd DiscVaultFrontend
+yarn lint:fix
+yarn format:check
+yarn test

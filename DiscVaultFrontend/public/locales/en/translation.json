@@ -1,0 +1,127 @@
+{
+  "common": {
+    "admin": "Admin",
+    "dashboard": "Dashboard"
+  },
+  "nav": {
+    "about": "About",
+    "priceKey": "Price Key",
+    "backToSite": "Back to Site",
+    "administratorView": "Administrator View"
+  },
+  "priceKey": {
+    "categories": "$\n$$\n$$$\n$$$$\n",
+    "prices": "$10-24\n$25-74\n$75-100\n$100+\n"
+  },
+  "about": {
+    "title": "About the Giving Tree",
+    "confirmation": "1. Review the legend to see which tag to select\n2. Click a tag or present to reveal an item\n3. Confirm you are claiming that item to purchase\n4. Be sure to have item shipped to HQ:",
+    "address": "Lori Lillard\n8909 Purdue Rd\nIndianapolis, IN 46268",
+    "dropOff": "5. Alternatively, drop the item off to Lori Lillard on the 3rd floor\n6. Please don’t forget the gift receipt",
+    "confidentiality": "All shipments will be kept confidential"
+  },
+  "welcome": {
+    "title": "Welcome to the Giving Tree!",
+    "subtitle": "Select a tag to get started or click the star to donate."
+  },
+  "card": {
+    "cancel": "Cancel"
+  },
+  "claimGift": {
+    "defaultTitle": "Gift Item",
+    "submitButtonLabel": "Claim Gift",
+    "confirmationTitle": "Claim Item",
+    "confirmation": "Do you want to claim ",
+    "success": "Item claimed successfully: ",
+    "error": "Unable to claim item",
+    "defaultEmailName": "Republic Team Member",
+    "emailSubject": "Thank You From The Giving Tree",
+    "purchaseGiftLinkLabel": "Purchase Gift Here",
+    "defaultPriceText": "See listing for price information"
+  },
+  "donation": {
+    "title": "Thank you for donating to the Giving Tree!",
+    "content": "Click on the donate button below to go to the donation page\nEnter your employee ID as the reference number\nEnter your personal information\nWithin the payment section, enter the amount\nSelect the Giving Tree as the payment reason\nEnter banking/credit card information\nContinue to payment\nSubmit\n"
+  },
+  "treeEnded": {
+    "title": "Giving Tree has ended!",
+    "content": "Thank you so much for your generosity. The Giving Tree is inactive at this time. Please contact Amy Arnell (amy.arnell@rjet.com) with any questions."
+  },
+  "table": {
+    "title": "Gift Items",
+    "startTree": "Start Tree",
+    "endTree": "End Tree",
+    "editTree": "Edit Tree",
+    "importGifts": "Import Gifts",
+    "endTreeConfirmation": "Do you want to end the Giving Tree as of {{date}}? This action cannot be undone.",
+    "endSuccess": "Tree ended successfully",
+    "endError": "Unable to end tree",
+    "endButton": "End",
+    "emailSubject": "Giving Tree has Ended!",
+    "noItems": "There are no items on the tree at this time.",
+    "claimed": "Claimed",
+    "unclaimed": "Unclaimed",
+    "smallScreen": "Please use a bigger screen to view tree items.",
+    "defaultTitle": "Gift Item",
+    "columns": {
+      "name": "Name",
+      "price": "Price",
+      "receiver": "Receiver",
+      "purchaser": "Purchaser",
+      "purchaseStatus": "Purchase Status"
+    },
+    "rowMenu": {
+      "viewItem": "View Item",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "import": {
+      "error": "Unable to trigger gift import",
+      "success": "Gift import requested successfully. Admins will receive an email when it is complete."
+    }
+  },
+  "drawer": {
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "editItemDrawer": {
+    "title": "Edit Item",
+    "name": "NAME",
+    "price": "PRICE",
+    "receiver": "RECEIVER",
+    "purchaser": "PURCHASER",
+    "purchaseStatus": "PURCHASE STATUS",
+    "invalidPrice": "Please enter a valid price.",
+    "invalidEmail": "Please enter a valid email address.",
+    "editSuccess": "Item edited successfully",
+    "editError": "Unable to edit item",
+    "unclaimWarning": "Unclaiming this item will remove the purchaser."
+  },
+  "treeActionDrawer": {
+    "startTitle": "Start Tree",
+    "editTitle": "Edit Tree",
+    "endDate": "TREE END DATE",
+    "dateRequired": "End date is required.",
+    "invalidDate": "Date must be in the future.",
+    "startTreeInformation": "The Giving Tree will start as of today's date and end on {{date}}.",
+    "editTreeInformation": "The Giving Tree was started on {{startDate}} and will end on {{date}}.",
+    "startButton": "Start Tree",
+    "editSuccess": "Tree edited successfully",
+    "editError": "Unable to edit tree",
+    "startSuccess": "Tree started successfully",
+    "startError": "Unable to start tree"
+  },
+  "deleteGift": {
+    "confirmationTitle": "Delete Item",
+    "confirmation": "Do you want to delete ",
+    "defaultTitle": "Gift Item",
+    "submitButtonLabel": "Delete Item",
+    "success": "Item deleted successfully",
+    "error": "Unable to delete item"
+  },
+  "sessionExpired": {
+    "title": "Session Expired",
+    "message": "Your session has expired. Please refresh the page to continue",
+    "buttonLabel": "Click to Refresh"
+  }
+}

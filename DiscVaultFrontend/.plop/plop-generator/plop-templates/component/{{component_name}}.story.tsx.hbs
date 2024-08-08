@@ -1,0 +1,16 @@
+/* eslint-disable no-console */
+import { Meta, StoryFn } from "@storybook/react";
+import { {{component_name}}, {{component_name}}Props } from ".";
+
+const meta: Meta = {
+  title: "{{component_name}}",
+  component: {{component_name}},
+  argTypes: {},
+};
+
+export default meta;
+
+const Template: StoryFn<{{component_name}}Props> = (args) => <{{component_name}} {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {};

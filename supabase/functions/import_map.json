@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "cheerio": "npm:cheerio",
+    "axios": "npm:axios",
+    "cheerioTypes": "npm:@types/cheerio"
+  }
+}
